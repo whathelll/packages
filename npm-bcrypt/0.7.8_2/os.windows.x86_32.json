@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "NpmModuleBcrypt",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os.windows.x86_32/packages/npm-bcrypt.js",
+      "length": 684,
+      "offset": 0,
+      "servePath": "/packages/npm-bcrypt.js",
+      "sourceMap": "os.windows.x86_32/packages/npm-bcrypt.js.map"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "i18n",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore",
+      "constraint": "1.0.0"
+    },
+    {
+      "package": "ui",
+      "constraint": "1.0.0"
+    },
+    {
+      "package": "deps",
+      "constraint": "1.0.1"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/anti_i18n.js",
+      "length": 9524,
+      "offset": 0,
+      "servePath": "/packages/anti_i18n.js",
+      "sourceMap": "web.browser/packages/anti_i18n.js.map"
+    }
+  ]
+}
